@@ -24,6 +24,8 @@
 }
 html{
     background-color: #222020;
+    cursor: url('images/arrow-collection/arrow2.png') 20 20,  pointer;
+
 }
 .header{
     margin-bottom: 5%;
