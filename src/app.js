@@ -10,12 +10,17 @@ app.set('view engine', 'hbs');
 
 
 app.get('/', function(req, res){
-    res.render('home.hbs')
+    res.render('home.hbs');
 })
+
+app.get('/research/privacy-policy', function(req, res){
+    res.render('privacy-policy.hbs');
+})
+
 app.get('/statements', function(req, res){
-    res.render('statements')
+    res.render('statements.hbs')
 })
 app.get('/thesosianiproject', function(req, res){
-    res.render('sosiani')
+    res.redirect('https://thesosianiproject.tamaduni.org/')
 })
 app.listen(3000);
