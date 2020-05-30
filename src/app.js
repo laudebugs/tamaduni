@@ -12,8 +12,10 @@ app.set('view engine', 'hbs');
 app.get('/', function(req, res){
     res.render('home.hbs');
 })
-
-app.get('/research/privacy-policy', function(req, res){
+app.get('/research', function(req, res){
+    res.render('research.hbs');
+})
+app.get('/privacy-policy', function(req, res){
     res.render('privacy-policy.hbs');
 })
 
