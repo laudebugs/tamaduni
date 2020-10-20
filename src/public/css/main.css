@@ -54,6 +54,7 @@ p{
     color:transparent;
 }
 .must{
+    color:#FFEDA1;
     font-size: 90%;
 }
 .transcends{
@@ -62,10 +63,7 @@ p{
 .individual{
     color:#9690cf;
 }
-.att{
-    background-color: #FFEDA1;
-    color: #0B5884;
-}
+
 .arrow{
     -webkit-text-stroke: 1px #9cd0fa;
     color: transparent;
